@@ -25,8 +25,8 @@ Make sure you have the following installed:
 ### Steps
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/calculator-tauri.git
-   cd calculator-tauri
+   git clone https://github.com/QuimeraGH/Arimple.git
+   cd arimple
    ```
 2. Install dependencies:
    ```sh
