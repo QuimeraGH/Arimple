@@ -1,4 +1,4 @@
-# Calculator MVVM App
+# Calculator MVVM App Arimple
 
 A simple calculator application built with [Tauri](https://tauri.app/) that supports the four basic arithmetic operations: addition, subtraction, multiplication, and division.
 
