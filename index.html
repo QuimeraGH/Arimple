@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/assets/mainStyle.css" />
+    <link rel="stylesheet" href="/src/assets/dropdownStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tauri App</title>
+    <script type="module" src="/src/main.ts" defer></script>
+  </head>
+
+  <body>
+    <div class="filterbackground"></div>
+    <main class="container">
+      <div data-tauri-drag-region class="titlebar">
+        <div class="titlebar-button" id="titlebar-minimize">
+          <img
+            src="https://api.iconify.design/mdi:window-minimize.svg"
+            alt="minimize"
+          />
+        </div>
+        <div class="titlebar-button" id="titlebar-close">
+          <img src="https://api.iconify.design/mdi:close.svg" alt="close" />
+        </div>
+      </div>
+
+      <form class="objects" onsubmit="SetOperationResult">
+
+        <div class="inputs">
+          <input type="number" id="input1">
+          <input type="number" id="input2">
+        </div>
+
+        <div class="dropdown">
+          <div class="dropdown-button"></div>
+          <div class="dropdown-content">
+            <a href="#" id="Add" class="opera">Add</a>
+            <a href="#" id="Subtract" class="opera">Subtract</a>
+            <a href="#" id="Divide" class="opera">Divide</a>
+            <a href="#" id="Multiply" class="opera">Multiply</a>
+          </div>
+        </div>
+
+        <div class="calculate-button">Calculate</div>
+
+        <p id="result-p"></p>
+      </form>
+
+    </main>
+  </body>
+</html>
